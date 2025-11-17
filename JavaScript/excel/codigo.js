@@ -50,9 +50,11 @@ function computeValue (val, constants){
             })();`);
     } catch (e) {
         computed= `ERROR: ${e.message}`;
+        console.error(e);
     }
 
     return computed;
+    
 }
 
 function generateCellConst(cells) {
