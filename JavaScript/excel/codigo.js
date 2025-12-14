@@ -159,4 +159,5 @@ $body.addEventListener('click', e => {
     })
 
 });
+console.log("Todo bien")
 renderSheet()
