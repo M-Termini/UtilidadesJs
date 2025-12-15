@@ -159,5 +159,9 @@ $body.addEventListener('click', e => {
     })
 
 });
+<<<<<<< HEAD
 console.log('Inicializando hoja de cálculo...');
+=======
+console.log("Todo bien")
+>>>>>>> dbbd31ea4a02077cf1e217dd4e0d620f573513ff
 renderSheet()
